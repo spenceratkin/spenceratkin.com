@@ -1,0 +1,66 @@
+@import url("../static/css/fonts.css");
+
+html,
+body {
+	height: 100%;
+	margin: 0;
+}
+
+* {
+    font-family: 'Menlo Regular', 'Menlo', 'Monaco', 'Lucida Console', monospace, serif;
+}
+
+a {
+	//font-size: 13px;
+	text-decoration: none;
+	color: #019875;//#5333ed;//#4d05e8;// #03c9a9;
+}
+
+a:hover {
+	text-decoration: none;
+	color: white;
+	background-color: #019875;//#5333ed;//#4d05e8;//#03c9a9;
+}
+
+.header {
+	flex: 0 1 auto;
+	padding-top: 25px;
+	padding-left: 25px;
+}
+
+.box {
+	display: flex;
+	flex-flow: column;
+	//height: 100%;
+}
+
+.main-content {
+	margin-top: 2em;
+	display: flex;
+	//flex: 1 1 auto;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.main-content p {
+	text-align: center;
+	padding-left: 2em;
+	padding-right: 2em;
+}
+
+.main-content img {
+	margin-bottom: 2em;
+	width: 200px;
+	min-width: 200px;
+	clip-path: circle(50% at center);
+	-webkit-clip-path: circle(50% at center);
+}
+
+/*
+@media screen and (max-height: 700px) {
+	.main-content {
+		margin-top: 2em;
+	}
+}
+*/

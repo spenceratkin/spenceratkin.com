@@ -1,0 +1,75 @@
+@import url("./static/css/fonts.css");
+
+html,
+body {
+	height: 100%;
+	margin: 0;
+}
+
+* {
+    font-family: 'Menlo Regular', 'Menlo', 'Monaco', 'Lucida Console', monospace, serif;
+}
+
+a {
+	//font-size: 13px;
+	text-decoration: none;
+	color: #019875;//#5333ed;//#4d05e8;// #03c9a9;
+}
+
+a:hover {
+	text-decoration: none;
+	color: white;
+	background-color: #019875;//#5333ed;//#4d05e8;//#03c9a9;
+}
+
+.header {
+	flex: 0 1 auto;
+	padding-top: 25px;
+	padding-left: 25px;
+}
+
+.box {
+	display: flex;
+	flex-flow: column;
+	height: 100%;
+}
+
+.main-content {
+	display: flex;
+	flex: 1 1 auto;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.main-content h1 {
+	//font-size: 14px;
+	//font-size: 300%;
+	font-weight: normal;
+}
+
+.item-list {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.item-list a {
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	//font-size: 200%;
+}
+/*
+@media only screen and (max-device-width: 800px) {
+	a {
+		font-size: 2em;
+	}
+
+	.main-content h1 {
+		font-size: 300%;
+	}
+}
+*/

@@ -1,0 +1,165 @@
+@import url("static/css/fonts.css");
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+html, body {
+    padding-top: 25px;
+}
+body {
+    /*background-color: rgb(234, 225, 215);*/
+}
+header, #footer {
+    margin: 0;
+    /*background-color: #003a70;*/
+    /*background-color: rgb(54, 69, 88);*/
+}
+
+/* Bootstrap */
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+/* Top bar */
+
+header {
+    z-index: 1;
+    position: fixed;
+    overflow: hidden;
+    padding: .3em 0 0 0;
+    height: 25px;
+    width: 100%;
+    text-align: left;
+}
+header ul {
+    list-style: none;
+    height: 25px;
+    margin: 0 0 0 .5em;
+    padding: 0;
+}
+header ul li {
+    height: 25px;
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+header ul a {
+    height: 25px;
+    margin: 0;
+    padding: .3em .4em .3em .4em;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: medium;
+    /*color: #D93240;*/
+    color: rgb(234, 115, 100);
+}
+a:hover {
+    cursor: pointer;
+}
+
+/* Main info */
+
+div#content {
+    padding-top: 1.5em;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+div#about {
+    position: relative;
+    /*height: 100%;*/
+    width: 100%;
+}
+div#contact {
+    clear: both;
+    position: relative;
+    height: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+/* About */
+
+img#spencer_img {
+    float: left;
+    width: 45%;
+    height: 45%;
+    padding-top: 1.5em;
+    /*padding-bottom: 1.5em;
+    clip-path: circle(74px at center);*/
+}
+/*div#about_text {
+    float: right;
+    width: 50%;
+    height: 100%;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}*/
+/*div#about_text h1 {
+    /*color: rgb(64, 156, 215);*/
+    /*text-align: center;
+    font-size: 3em;
+}*/
+
+/* Projects */
+
+div#projects_bar {
+    height: 4em;
+    background-color: #FFF000;
+    line-height: 4em;
+}
+div#projects_bar h2 {
+    text-align: center;
+    vertical-align: middle;
+}
+div#projects {
+    text-align: center;
+    clear: both;
+    position: relative;
+    height: 400px;
+    width: 100%;
+    padding-top: 1em;
+}
+div#projects h1 {
+    text-align: center;
+}
+div#projects p {
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+/* Footer */
+
+#footer {
+    text-align: center;
+    /*clear: both;
+    height: 150px;*/
+}
+#footer div#social_links {
+    /*padding-top: 10px;*/
+    display: inline-block;
+}
+#footer div#social_links a {
+    text-decoration: none;
+    color: black;
+}
+/*#footer div#social_links i.fa {
+    margin: .25em .25em .25em .25em;
+}*/
+
+/*footer a#github {
+	display: inline-block;
+	height: 32px;
+	width: 32px;
+	background-image: url("images/github-mark-light.png");
+}*/
+
+#footer p {
+    color: white;
+    text-align: center;
+    font-size: .5em;
+}
+
+.project-text {
+	font-size: 1.5em;
+}

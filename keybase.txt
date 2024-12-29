@@ -1,0 +1,75 @@
+://keybase.io/satkin
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://spenceratkin.com
+  * I am satkin (https://keybase.io/satkin) on keybase.
+  * I have a public key with fingerprint 791A F91F 9523 293C D798  A111 9D1B D314 BE0A 8EC6
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01011cfa74c644159fe0e5ebca6e25d7174ecb9aedff643d9acbb41b5e9953899a6f0a",
+            "fingerprint": "791af91f9523293cd798a1119d1bd314be0a8ec6",
+            "host": "keybase.io",
+            "key_id": "9d1bd314be0a8ec6",
+            "kid": "01011cfa74c644159fe0e5ebca6e25d7174ecb9aedff643d9acbb41b5e9953899a6f0a",
+            "uid": "cf324ecc74ed3164a802ac5efbf31919",
+            "username": "satkin"
+        },
+        "revoke": {
+            "sig_ids": [
+                "ec470199e62762c8185e3945258db1551b900a6d12fd403e69c98750bc0fe0ac0f"
+            ]
+        },
+        "service": {
+            "hostname": "spenceratkin.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1472837440,
+    "expire_in": 157680000,
+    "prev": "ab41efa4358a9c8872c17c2c72fb4588f3c3c85f17bd6fe970524194514800e1",
+    "seqno": 9,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.56
+Comment: https://keybase.io/crypto
+
+yMJuAnicrVJ/aJZFHH/edJkvW9bAIEEYp0GsYXfPc/fc3auUKXM29Q/BcKjz3d09
+d9vD9HnenufZu3TNYBBCWEkUGNnPKUgp6l8zJZxTCduE/ohABrlWlJqFZKkoA+95
+0f/6s/vjjrv7/Pp+7841zHKKhemVG4b+rc7ML4yf+afP2XhhZPkAkHGwA5QGQK+u
+LXpboNOs3BsGoAQggggpIyhWPsaIcKOhJloq4WuXBBRRrJXkQgfG+NgLuFBSYiSJ
+5px4jHPhGyhACzBh1K2TShJGmZWlHAnDkeHE9VzuqYByJhBCPEAy8BCWGgqmlW+J
+PXGaM2w4KVK9JIztmd2Ua/H+A/8/5+6rySnjuZagLMva+Vgw6ApFtJHGQxzxHJjq
+JBLbtUWnIusNIzDYAhJdjXt13tU07LaRU1DaDLTCFCLOte9S31UMMaI9jolLWCAR
+IUhyCIUfINcEGHra54ozSqBU0FYh7Aw6rbb1q4aqJp736KF3RUdKJ7UES1S83Sar
+JHEWq3ibve3JskopD5btqOTofi3LD3TKMowC+0iWUNVJGsYRKCGLVFmYCyNMXeZR
+jGEL0K9VwkSXwxxBqM+gHbmNrlpJYduojcAeYYIrxqirEFWuoq6RmDBmPOUpRgyi
+MvCN5hQSFyNbPsJWSCOQV/ZqFIMStzFFd15T2B2JrC/RYHBsdMtsp1B0Hq17JP+8
+TnHuEw+/9LLWx5yRVZ+tm314cihrm7h2dv+d/R+tvd06cai+WU6/eeFIOzt95r2X
+581deu3xZZPfFm/e+On6vovLx7ZOvLJq7VV4avft5t8+L3fefbFpdGv98b82fvX8
+7qefarvSv+mZY2e/OPxlT/vM9DSnPzo/fFNYfP7u5Z/X96+YD95uXjM0erBh08Gb
+ey69tP7vA0NTYXW4tOZc171jw+8Uvo4/rRtc3dHQvrPUtWJgQTi10Cn+nhx54YO3
+Vjbu3PXrGMx++f5yx+pb9SP3rqRHK01q/Oi8992Fi509+55l8ampzll1TR9/90dX
+y3ObL3a0ihunh3ctGrneNv6n0zhncmby0pOvz1ytb3z3kxMfvnFyr7d30br7zGdf
+1g==
+=tPK3
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/satkin
+
+==================================================================
+

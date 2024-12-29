@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Spencer Atkin</title>
+   <!--<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>-->
+	<meta name="referrer" content="same-origin">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!-- Latest compiled and minified CSS -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+   <link type="text/css" rel="stylesheet" href="style.css"/>
+   <!-- Font Awesome -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+   <!-- JQuery and JQuery UI -->
+   <script src="https://code.jquery.com/jquery-2.1.4.min.js" async></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js" async></script>
+   <!-- Latest compiled JavaScript -->
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+   <script type="text/javascript" src="script.js"></script>
+	<!-- Piwik -->
+	<script type="text/javascript">
+  		var _paq = _paq || [];
+  		/* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  		_paq.push(['trackPageView']);
+  		_paq.push(['enableLinkTracking']);
+  		(function() {
+    	var u="//www.spenceratkin.com/analytics/";
+    	_paq.push(['setTrackerUrl', u+'piwik.php']);
+    	_paq.push(['setSiteId', '1']);
+    	var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    	g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  		})();
+	</script>
+	<!-- End Piwik Code -->
+</head>
+<!-- Navigation bar -->
+   <!--<header>
+      <ul >
+         <li><a id="about_button" class="header_button" style="background-color: rgb(234, 115, 100); color: rgb(54, 69, 88);">About</a></li>
+         <li><a id="projects_button" class="header_button">Projects</a></li>
+         <li><a id="contact_button" class="header_button">Contact</a></li>
+      </ul>
+   </header>-->
+   <body>
+      <nav class="navbar navbar-default navbar-fixed-top">
+         <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+               </button>
+               <a class="navbar-brand">Spencer Atkin</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+               <ul class="nav navbar-nav">
+                  <li class="inactive"><a id="about_button">About<span class="sr-only">(current)</span></a></li>
+                  <li class="inactive"><a id="projects_button">Projects<span class="sr-only">(current)</span></a></li>
+						<li class="inactive"><a id="links_button" href="https://spenceratkin.com/links">Links<span class="sr-only">(current)</span></a></li>
+                  <!--<li class="inactive"><a id="contact_button">Contact<span class="sr-only">(current)</span></a></li>-->
+               </ul>
+               <!--<ul class="nav navbar-nav navbar-right">
+                  <li class="dropdown">
+                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" name="acc-drop"><span class="caret"></span></a>
+                     <ul class="dropdown-menu">
+                        <li><a href="#">Share This Committee</a></li>
+                        <li><a href="#">View All Committees</a></li>
+                        <li><a href="#">View Committee Log</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Log Out</a></li>
+                     </ul>
+                  </li>
+               </ul>-->
+            </div><!-- /.navbar-collapse -->
+         </div><!-- /.container-fluid -->
+      </nav>
+      <!--<div class="nav_container">
+         <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+         </ul>
+      </div>
+      <h1 style="text-align: center">Spencer Atkin</h1>
+      <h4 style="text-align: center">This site is currently under construction.</h4>-->
+      <!--<h1 style="font-family: 'Open Sans', sans-serif; padding-left: 10px">Spencer Atkin</h1>
+      <h4 style="font-family: 'Open Sans', sans-serif; padding-left: 10px">This site is currently under construction.</h4>-->
+      <!-- Main content -->
+      <div class="container-fluid">
+         <div class="row">
+            <div class="col-sm-4 col-sm-offset-5 col-xs-offset-4">
+               <div class="demo-content">
+                  <img id="spencer_img" src="https://spenceratkin.com/static/img/headshot.jpg" alt="A picture of me"/>
+               </div>
+            </div>
+         </div>
+         <div class="row" id="about-container">
+            <div class="col-sm-12">
+               <div class="demo-content" style="text-align: center;">
+                  <h1>Spencer Atkin</h1>
+                  <br>
+                  <span style="font-size: 1.5em;">
+                     <p>I am a passionate programmer who is always looking for ways to gain experience and grow my knowledge base.</p>
+		               <p>I have extensive experience with programming in a Unix environment, and I am well-versed in the use of the Bash shell.</p>
+		               <p>I do a lot of iOS development, and I am also very interested in cybersecurity.</p>
+                     <p>I have worked with C, Objective-C, Swift, Java, Python, and assembly.</p>
+                  </span>
+               </div>
+            </div>
+         </div>
+         <div class="row" id="projects-container">
+            <div class="col-sm-12" style="text-align: center;">
+               <h1>Projects</h1>
+               <br>
+					<div class="col-sm-6">
+						<div class="panel panel-default">
+							<div class="panel-body project-text">I participated in <a href="https://www.dchacks.org" target="_blank">DCHacks 2015</a> and my team placed in the top 10 overall.  Our project was <a href="https://github.com/spenceratkin/Pinpoint" target="_blank">Pinpoint</a>, an iOS app that lets people share their location with others.</div>
+								<img src="https://spenceratkin.com/static/img/pinpoint.png" style="max-width: 50%">
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="panel panel-default">
+							<div class="panel-body project-text">In the summer of 2015, I worked at DC-based company SocialRadar. I developed an example app to demonstrate LocationKit (their location-tracking iOS SDK), which can be found <a href="https://github.com/socialradar/Vacation-Tracker" target="_blank">here.</a></div>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="panel panel-default">
+							<div class="panel-body project-text">I am actively developing <a href="https://itunes.apple.com/us/app/tj-intranet/id1116878552?mt=8" target="_blank">TJIntranet</a>, an iOS application made for my school's intranet. It provides an easy way to view the day's schedule, sign up for eighth periods, and view announcements.</div>
+							<img src="https://spenceratkin.com/static/img/tjintranet.png" alt="TJ Intranet screenshot" style="max-width: 50%">
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="panel panel-default">
+							<div class="panel-body project-text">I developed the game <a href="https://itunes.apple.com/us/app/paddle-pong/id1236603404?mt=8" target="_blank">Paddle-Pong</a>, a game where the player uses a paddle to hit a ball into one of four border walls.</div>
+							<img src="https://spenceratkin.com/static/img/paddle-pong.png" alt="Paddle-Pong screenshot" style="max-width: 50%">
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="panel panel-default">
+							<div class="panel-body project-text">I researched a way to securely perform one-time pad encryption on iOS devices in my senior year of high school. Download my research paper <a href="static/docs/otp-research.pdf">here</a>.</div>
+							<img src="https://spenceratkin.com/static/img/otp-research.png" alt="OTP research app screenshot" style="max-width: 50%">
+						</div>
+					</div>
+
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-sm-12" style="text-align: center">
+               <br>
+               <a style="padding: 10px" href="https://github.com/spenceratkin" target="_blank"><i class="fa fa-github fa-3x invert" style="color: black"></i></a>
+               <a style="padding: 10px" href="https://keybase.io/satkin" target="_blank"><i class="fa fa-key fa-3x invert" style="color: black"></i></a>
+               <a style="padding: 10px" href="https://itunes.apple.com/us/developer/atkin-labs/id1116878551" target="_blank"><i class="fa fa-apple fa-3x invert" style="color: black"></i></a>
+               <!--<i class="fa fa-twitter fa-3x invert"></i>
+               <i class="fa fa-apple fa-3x invert"></i>-->
+               <!--<p>Copyright &copy; 2015 Spencer Atkin. All rights reserved.</p>-->
+            </div>
+         </div>
+      </div>
+   <!--<footer>
+      <div id="social_links">
+         <a id="github" href="https://github.com/Sman25" target="_blank"><img src="images/github-mark.png" alt="My GitHub"/></a>
+         <a href="https://github.com/Sman25" target="_blank"><i class="fa fa-github fa-3x invert"></i></a>
+         <i class="fa fa-twitter fa-3x invert"></i>
+         <i class="fa fa-apple fa-3x invert"></i>
+      </div>
+      <p>Copyright (c) 2015 Spencer Atkin. All rights reserved.</p>
+   </footer>-->
+</html>
